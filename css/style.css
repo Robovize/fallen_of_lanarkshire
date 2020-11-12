@@ -1,0 +1,799 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* BBC inspired CSS for hidden H1*/
+h1 {
+    display: block;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    font-size: 2px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 6px #7F7F7F;
+    line-height: 30px;
+    padding: 30px;
+    margin: auto;
+}
+
+
+
+/*  Homepage  */
+
+
+
+
+
+
+
+
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 1rem;
+}
+
+#logo {
+    width: 100%;
+}
+
+
+/*  Section Search  */
+#section_search {
+    background: #EFEFEF;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  Section About  */
+
+#section_about {
+    margin-top: 25px;
+}
+
+#section_about p {
+    line-height: 1.875rem;
+    padding: 1.25rem;
+}
+
+.about_wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.row_about {
+    display: flex;
+    flex-flow: row wrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+select {
+    width: 200px;
+    padding: 0.8rem 2rem;
+    background: white;
+}
+
+.input_div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#row_one {
+    background-position: bottom;
+    display: flex;
+    flex-flow: row wrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#row_two {
+    background-position: top;
+    background-size: cover;
+}
+
+#about_text_row2 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1));
+}
+
+.about_text {
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 100%;
+}
+
+
+
+.field_box {
+    background: #A5C365;
+    margin: 1rem;
+    padding: 1.5rem 2rem 2rem 2rem;
+    ;
+}
+
+.field_label {
+    line-height: 1.563rem;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 1rem;
+}
+
+.field_label p {
+    font-size: 11px;
+    color: #444;
+}
+
+
+
+
+
+label {
+    color: black;
+
+}
+
+input {
+    border: none;
+    padding: 0.8rem 0.5rem 0.8rem 1.2rem;
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+}
+
+input[type=submit] {
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    font-size: 0.8rem;
+}
+
+
+
+
+.btn_wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.submit_btn {
+    width: 200px;
+    height: 50px;
+    background: #005EB8;
+    padding: 0;
+    color: white;
+    margin: 0 1rem 0 1rem;
+}
+
+.submit_btn:hover {
+    background: white;
+    color: #005EB8;
+    border: 1px solid #005EB8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: #005EB8;
+    padding: 2.2rem;
+    color: #005EB8;
+    margin: 25px auto 25px auto;
+    max-width: 1366px;
+
+}
+
+
+footer h2 {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    text-shadow: none;
+    font-size: 20px;
+    background: #F8F8F8;
+}
+
+footer input,
+footer input::placeholder,
+footer textarea,
+footer textarea::placeholder,
+footer label {
+    color: #005EB8;
+    font-size: 14px;
+    outline: none;
+}
+
+
+
+
+footer input,
+footer textarea {
+    border: 1px solid #005EB8;
+    width: 100%;
+}
+
+footer input,
+footer textarea {
+    margin-top: 10px;
+    padding: 0.7rem 0.5rem 0.7rem 1.3rem;
+}
+
+.contact_field {
+    padding: 1rem 0;
+}
+
+
+.contact {
+    background: #F8F8F8;
+    padding: 2rem;
+}
+
+
+.checkbox_inputs {
+    background: #A5C365;
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+
+.footer_bottom {
+    padding: 10px;
+    color: white;
+}
+
+.footer_bottom {
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.footer_bottom a {
+    color: #005EB8;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Page Login */
+
+
+.login_page {
+    width: 320px;
+    margin: auto;
+}
+
+
+.login_page input,
+.login_page textarea {
+    border: 1px solid #005EB8;
+    width: 100%;
+}
+
+.login_page input {
+    margin-top: 10px;
+    padding: 0.7rem 0.5rem 0.7rem 1.3rem;
+}
+
+
+
+
+
+/* Page Aministration and Search */
+
+#userArea {
+    background: #EFEFEF;
+    min-height: 100vh;
+}
+
+#userArea h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.admin_panel {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+
+}
+
+
+
+
+
+
+.admin_dashboard {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.admin_wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 100px
+}
+
+
+.admin_item {
+    width: 300px;
+    height: 200px;
+    background: #000;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin_wrapper a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+}
+
+.admin_wrapper a:hover {
+    color: #fff;
+}
+
+
+#add_record {
+    background: #007BFF;
+}
+
+#update_record {
+    background: #FFC107;
+}
+
+#delete_record {
+    background: #DC3545;
+}
+
+table {
+    border: 1px solid #005EB6;
+}
+
+th {
+    background: #005EB6;
+    color: #fff;
+    padding: 20px;
+}
+
+td {
+    padding: 10px;
+    color: #444;
+}
+
+tr:nth-child(odd) {
+    background: #EFEFEF;
+}
+
+tr:nth-child(even) {
+    background: #FFFFFB;
+    color: white;
+}
+
+tr:hover {
+    background-color: #A5C365;
+}
+
+tr {
+    margin-top: 5px;
+}
+
+
+
+
+
+.update_form {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 20px;
+}
+
+
+.update_form input {
+    border: 1px solid black;
+    margin: 10px 10px 10px 0;
+}
+
+.update_form__field {
+    width: 50%;
+    padding: 20px 30px 20px 30px;
+    margin-top: 10px;
+    border-left: 5px solid #fff;
+    border-right: 5px solid #fff;
+    background: #A5C365;
+}
+
+
+.update_form__submit {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.update_form__submit input {
+    width: 300px;
+    height: 100px;
+}
+
+.deleteButton {
+    background: #DC3545;
+    color: white;
+}
+
+.submitButton {
+    background: #007BFF;
+    color: white;
+}
+
+
+.admin_menu {
+    background: #007BFF;
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.admin_menu a {
+    color: white;
+    text-decoration: none;
+    border: 1px white solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    #section_search {
+        padding-top: 30px;
+
+    }
+
+
+    .field_box {
+        width: calc(96%/2);
+        margin: 1%;
+    }
+
+    #search_form {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        padding: 20px 50px 30px 50px;
+
+    }
+
+    .btn_wrapper {
+        justify-content: flex-end;
+    }
+
+
+    .submit_btn {
+        margin: 1% 1% 0 1%;
+    }
+
+    .login_btn {
+        justify-content: center;
+    }
+
+
+    h2 {
+        font-size: 30px;
+        margin: 0 calc(30px + 1%);
+    }
+
+    header {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #logo {
+        width: 300px;
+    }
+
+    p {
+        display: flex;
+        align-items: center;
+    }
+
+    #section_about {
+        padding: 30px;
+    }
+
+    #about_text_row2 p,
+    #about_text_row4 p {
+        padding-right: 0px !important;
+        padding-left: 80px !important;
+    }
+
+
+    #about_text_row1 p,
+    #about_text_row3 p {
+        padding-left: 0px !important;
+        padding-right: 80px !important;
+    }
+
+    .checkbox_inputs {
+        background: #A5C365;
+        margin: 1rem;
+        padding: 1.5rem 2rem 1.5rem 2rem;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 1%;
+    }
+
+    table {
+        width: 99%;
+        margin: 0 0.5%;
+        font-size: 13px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 960px) {
+    #index {
+        max-width: 980px;
+        margin: auto;
+    }
+
+    #item_update,
+    #item_add {
+        max-width: 1080px;
+        margin: auto;
+    }
+
+    .about_wrapper {
+        width: 92%;
+        margin: auto;
+    }
+
+
+
+    .field_box {
+        width: calc(94%/3);
+        margin: 1%;
+    }
+
+
+    .about_text {
+        width: 65%;
+        background: #fff;
+        display: flex;
+    }
+
+    .about_image {
+        width: 35%;
+
+    }
+
+    #section_about p {
+        padding: 40px;
+    }
+
+    .row_about {
+        min-height: 500px;
+    }
+
+    #row_one,
+    #row_two {
+        background: #fff;
+    }
+
+    #image1 {
+        background-image: url('../img/cemetery.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        height: auto;
+    }
+
+    #image2 {
+        background-image: url('../img/woman.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+
+    #image3 {
+        background-image: url('../img/stone.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: right;
+    }
+
+    #image4 {
+        background-image: url('../img/gold.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+
+    #row_two,
+    #row_four {
+        flex-direction: row-reverse;
+    }
+
+    #row_one,
+    #row_two,
+    #row_three,
+    #row_four {
+        height: auto;
+    }
+
+
+
+}
